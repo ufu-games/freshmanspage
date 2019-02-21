@@ -4,10 +4,10 @@
             <h1>Contact Us</h1>
             <h1>
                 <a href="http://twitter.com/freshmansQuest" target="_BLANK"> 
-                    <button class="btn btn-light"><i class="fab fa-twitter"> TWITTER</i></button>
+                     <button class="btn btn-light"><font-awesome-icon :icon="['fab', 'twitter']"></font-awesome-icon> TWITTER</button>
                 </a>
                 <a href="mailto:freshmansquest@gmail.com">
-                    <button class="btn btn-light"><i class="fas fa-envelope"> EMAIL</i></button>
+                    <button class="btn btn-light"><font-awesome-icon icon="envelope"></font-awesome-icon> EMAIL</button>
                 </a>
             </h1>
         </div>
