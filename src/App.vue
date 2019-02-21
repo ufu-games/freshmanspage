@@ -3,6 +3,7 @@
         <freshmans-navbar></freshmans-navbar>
         <freshmans-logo></freshmans-logo>
         <freshmans-press></freshmans-press>
+        <freshmans-facts></freshmans-facts>
         <freshmans-contact></freshmans-contact>
         <freshmans-footer></freshmans-footer>
       </div> 
@@ -12,6 +13,7 @@
 import NewNavbar from './components/NewNavbar.vue'
 import Logo from './components/Logo.vue'
 import Press from './components/Press.vue'
+import FactSheet from './components/FactSheet.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 export default {
@@ -19,6 +21,7 @@ export default {
     'freshmans-navbar': NewNavbar,
     'freshmans-logo': Logo,
     'freshmans-press': Press,
+    'freshmans-facts': FactSheet,
     'freshmans-contact': Contact,
     'freshmans-footer': Footer,
   }
@@ -53,6 +56,11 @@ html, body {
 html, body, #app, section {
     height: 100%;
     margin: 0 auto;
+}
+
+section {
+    height: 100%;
+    color: white;
 }
 
 .horizontalAlignment {

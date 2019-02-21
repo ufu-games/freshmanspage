@@ -20,8 +20,4 @@
 </template>
 
 <style scoped>
-section {
-    height: 100%;
-    color: white;
-}
 </style>
